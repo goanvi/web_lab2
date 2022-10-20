@@ -1,0 +1,43 @@
+@import "./variables";
+@import "./mixins";
+@import "./graph";
+@import "./header";
+@import "./panel";
+@import "./table";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin: 0 auto;
+  display: flex;
+  height: 500px;
+  max-width: 1000px;
+}
+
+.col-5 {
+  flex: 41.7% 0;
+}
+
+.col-7 {
+  flex: 58.3% 0;
+}
+
+.notify {
+  color: $wrong-input-color;
+  width: 320px;
+  position: fixed;
+  text-align: center;
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 5px;
+    cursor: pointer;
+  }
+  &.disabled {
+    display: none;
+  }
+}
