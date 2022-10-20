@@ -15,7 +15,7 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <span>Name: Goncharov Andrey Viktorovich</span>
+        <span>Name: Goncharov Andrey Viktorovich </span>
         <span>Group: P32312</span>
         <span>Var: 3231203</span>
       </div>
